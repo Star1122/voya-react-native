@@ -15,11 +15,15 @@ const Setting = (props) => {
     props.navigation.navigate('Home');
   };
   const machine = (
-    <View style={{ color: '#ACACAC' }}>
+    <View style={{
+      width: wp(85), height: wp(85), justifyContent: 'center', alignItems: 'center',
+    }}
+    >
       <Image
         source={machineImage}
         style={{
-          width: wp(50),
+          width: wp(55),
+          height: wp(48),
           tintColor: '#A6A6A6',
         }}
       />
