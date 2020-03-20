@@ -26,10 +26,11 @@
       ]
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ivica.voya"
     },
     "android": {
-      "package": "com.anton.game"
+      "package": "com.ivica.voya"
     },
     "platforms": [
       "android",
